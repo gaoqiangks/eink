@@ -45,8 +45,8 @@ hi! link	    Conditional 	Keyword
 hi! link	    String			Keyword
 hi Identifier   cterm=NONE          ctermbg=NONE    ctermfg=NONE
 hi Ignore       cterm=bold                          ctermfg=NONE
-hi ErrorMsg     cterm=reverse       ctermbg=15      ctermfg=9
-hi Error        cterm=reverse       ctermbg=15      ctermfg=9
+hi ErrorMsg     cterm=reverse       ctermbg=White      ctermfg=Black
+hi! link 		Error           ErrorMsg
 hi Todo         cterm=bold,standout ctermbg=0       ctermfg=11
 hi MatchParen   cterm=bold          ctermbg=250     ctermfg=NONE
 hi ColorColumn                                      ctermbg=255
